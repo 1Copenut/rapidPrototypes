@@ -9,7 +9,7 @@ app.engine( "hogan.js", cons.hogan );
 app.set( "view engine", "hogan.js" );
 app.set( "views", __dirname + "/public/tmpl" );
 
-// map products to artists
+// map products to artists by cross-linking data
 for ( var id in d_products.products ) {
 	d_products.products[ id ].artist = d_artists.artists[ d_products.products[ id ].artist.toString() ];
 }
