@@ -3,25 +3,26 @@ module.exports = function (grunt) {
 		pkg: grunt.file.readJSON("package.json"),
 		
 		jshint: {
-			files: "public/js/*.js",
+			files: ["public/js/*.js", "!public/js/config.js"],
 			options: {
 				globals: {
 					jQuery: true,
 					console: true,
 					module: true,
-					document: true
+					document: true,
+					define: true,
+					Hogan: true
 				}
 			}
 		},
 		
 		jquery: {
-			version: "1.9.1",
-			dest: "public/js/vendor/jquery-1.9.1.min.js",
+			dest: "public/lib/jquery/jquery.js",
 			minify: true
 		},
 		
 		bootstrap: {
-			dest: "public/js/vendor/bootstrap",
+			dest: "public/lib/",
 			js: [
 				"bootstrap-transition.js",
 				"bootstrap-modal.js",
