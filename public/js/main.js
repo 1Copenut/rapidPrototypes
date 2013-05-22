@@ -5,7 +5,7 @@
                   MAIN MODULE
 **************************************************/
 
-define([
+require([
 	"jquery",
 	"hogan"
 ], function($) {
