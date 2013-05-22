@@ -3,7 +3,7 @@
 <img src="img/{{id}}.jpg" alt="{{title}}" class="active" />
 <ul class="info">
 	{{#info}}
-	<li>{{info_item}}</li>
+	<li>{{.}}</li>
 	{{/info}}
 </ul>
 <span class="price">{{price}}</span>
