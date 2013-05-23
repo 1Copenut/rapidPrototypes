@@ -1,10 +1,11 @@
 rapidPrototypes
 ===============
 
-Instead of relying on copy and paste for my rapid prototyping, I've organized a Node.js stack that allows me to write
-fully asynchronous design-centric apps, all the way down to client-side templating.
+Instead of relying on copy and paste for my rapid prototyping, I've organized a Node.js stack that allows me to write fully asynchronous design-centric apps, all the way down to client-side templating.
 
-I've abstracted each portion of the application into its own folder, explained below. 
+I've abstracted each portion of the application into its own folder, explained below.
+
+Many thanks to [Garann Means](https://twitter.com/garannm) for her A List Apart article [Node at Work: A Walkthrough](http://alistapart.com/article/node-at-work-a-walkthrough) and the source code that I've extended and patched to work with Hogan.js.
 
 ## Node Modules ##
 
