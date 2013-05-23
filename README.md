@@ -9,7 +9,7 @@ Many thanks to [Garann Means](https://twitter.com/garannm) for her A List Apart 
 
 ## Node Modules ##
 
-Copy the Gruntfile.js and package.json into a new folder, then run npm install to install the following Node modules:
+Copy the Gruntfile.js and package.json into a new folder, then run `npm install` to install the following Node modules. You may need to run this command as **sudo**.
 
 + Node
 + Express
