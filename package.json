@@ -5,7 +5,7 @@
     "grunt": "~0.4.1",
     "grunt-contrib-uglify": "~0.2.0",
     "grunt-contrib-jshint": "~0.5.3",
-    "express": "~3.2.4",
+    "express": "~4.17.1",
     "consolidate": "~0.9.1",
     "grunt-jquerybuilder": "~0.1.4",
     "hogan.js": "~2.0.0",
